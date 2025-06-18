@@ -1,0 +1,24 @@
+.navlink {
+    font-size: 30px;
+    text-decoration: none;
+    color: #3F5EFB;
+    border-radius: 4px;
+    display: inline-block;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+
+.navlink:hover {
+    transform: scale(1.1);
+    color: #55fc46;
+}
+
+.navlink.active {
+    color: #55fc46;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}

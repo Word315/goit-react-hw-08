@@ -1,40 +1,54 @@
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 12px;
-  max-width: 320px;
-  margin-bottom: 20px;
+.card{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
 }
 
-.form label {
-  display: flex;
-  flex-direction: column;
-  font-weight: 500;
-  gap: 4px;
+.form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
 }
 
-.form input {
-  padding: 6px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.field{
+   width: 100%;
+   height: 45px;
+   outline: none;
+   border: 1px solid white;
+   background: rgba(255, 255, 255, 0.5);
+   border-radius: 5px;
+
+   font-size: 16px;
+   font-weight: 500;
 }
 
-.form button {
-  padding: 8px 16px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
+.button {
+    border: none;
+    color: white;
+    background-color: #3F5EFB;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    outline: none;
 }
 
-.form button:hover {
-  background-color: #45a049;
+.button:hover {
+    background-color: #55fc46;
 }
 
-.error {
-  color: red;
-  font-size: 12px;
+.message{
+    font-size: 10px;
+    color: #55fc46;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
 }
